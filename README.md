@@ -1,5 +1,6 @@
 <h1>Download lyrics from Netease Music</h1>
-<h2>Steps:</h2>
-<li>1. Start with a music id from Netease Music</li>
-<li>2. Search for lyrics using the song id. Url format: http://music.163.com/api/song/media?id=[song id]</li>
-<li>3. Process on the text, save it to a file named which is given as a args</li>
+<h2>Inputs:</h2>
+<li>--id: music id from Netease Music</li>
+<li>--file_path: the path of the music file</li>
+<h2>Output:</h2>
+<li>A lrc file with the same name as the music file</li>
